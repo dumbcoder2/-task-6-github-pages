@@ -42,12 +42,11 @@ header {
 }
 
 header img {
-    width: 280px;
-    max-width: 90%;
-    height: 170px;
+    width: 180px;
+    height: 110px;
     object-fit: cover;
-    border-radius: 12px;
-    margin-bottom: 25px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 header h1 {
