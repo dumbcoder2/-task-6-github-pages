@@ -33,12 +33,10 @@ The website is built using HTML, CSS, and JavaScript and is publicly accessible 
 ## Screenshots
 
 ### 1. Website Homepage
-
 ![Website Homepage](screenshots/01-website-homepage.png)
 
-### 2. Dark Mode
-
-![Website Dark Mode](screenshots/02-dark-mode.png)
+### 2. About Me, Skills and Footer
+![About Me, Skills and Footer](screenshots/02-about-skills-footer.png)
 
 ## Deployment Steps
 
