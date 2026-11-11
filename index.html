@@ -8,25 +8,59 @@
 </head>
 <body>
 
+    <nav>
+        <h2>My Portfolio</h2>
+        <button id="themeBtn">🌙 Dark Mode</button>
+    </nav>
+
     <header>
-        <h1>My DevOps Journey</h1>
-        <p>Learning Cloud Computing, AWS & DevOps</p>
+        <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000"
+            alt="Developer working on a computer"
+        >
+
+        <h1>Hi, Welcome to My DevOps Journey!</h1>
+        <p>Aspiring Cloud & DevOps Engineer</p>
+        <button id="welcomeBtn">Click to Say Hello</button>
+        <p id="message"></p>
     </header>
 
     <section>
         <h2>About Me</h2>
-        <p>I am an aspiring Cloud and DevOps Engineer.</p>
-        <p>I enjoy learning AWS, Linux, Git, Docker and CI/CD.</p>
+        <p>
+            I am an aspiring Cloud and DevOps Engineer
+            passionate about cloud computing, automation
+            and modern infrastructure.
+        </p>
     </section>
 
     <section>
         <h2>Technical Skills</h2>
-        <p>AWS | Linux | Git | GitHub | Docker | Jenkins</p>
+        <div class="skills">
+            <span>AWS</span>
+            <span>Linux</span>
+            <span>Git & GitHub</span>
+            <span>Docker</span>
+            <span>Jenkins</span>
+            <span>HTML & CSS</span>
+            <span>JavaScript</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>My Goal</h2>
+        <p>
+            Building practical projects and developing
+            my skills in Cloud Computing and DevOps.
+        </p>
     </section>
 
     <footer>
+        <p>Designed with HTML, CSS & JavaScript</p>
         <p>Hosted using GitHub Pages</p>
+        <p>© <span id="year"></span> My DevOps Portfolio</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
